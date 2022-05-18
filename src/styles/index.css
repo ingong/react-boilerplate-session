@@ -3,7 +3,15 @@ p {
 }
 
 div {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   background-image: url('../../public/assets/baseball.png');
+  background-repeat: no-repeat;
+}
+
+section {
+  width: 15px;
+  height: 15px;
+  background-image: url('../../public/assets/close.svg');
+  background-repeat: no-repeat;
 }
