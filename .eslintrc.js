@@ -3,6 +3,7 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
+    "parser": "@babel/eslint-parser",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -16,11 +17,15 @@ module.exports = {
     ],
     "extends": [
         "eslint:recommended",
+        "plugin:react-hooks/recommended",
         "plugin:react/recommended",
         "plugin:prettier/recommended" 
     ],
     "rules": {
+        "prettier/prettier": "error",
         "no-extra-semi": "error",
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "react/prop-types": "warn",
+        "react/react-in-jsx-scope": "off"
     }
 }
