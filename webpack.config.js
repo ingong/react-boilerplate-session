@@ -6,6 +6,12 @@ module.exports = {
   entry: {
     main: './src/index.js', // 웹팩에서 웹 자원을 변환하기 위해 필요한 최초 진입점이자 자바스크립트 파일 경로
   },
+  devServer: {
+    open: true,
+    hot: true,
+    historyApiFallback: true,
+    // host: "dev.domain.com",
+  },
   module: {
     rules: [
       {
