@@ -6,7 +6,10 @@ module.exports = {
     main: './src/index.js', // 웹팩에서 웹 자원을 변환하기 위해 필요한 최초 진입점이자 자바스크립트 파일 경로
   },
   module: {
-    rules: [],
+    rules: [{
+      test: /\.css$/,
+      use: ['style-loader','css-loader'],
+    }],
   },
   output: {
     // 웹팩을 돌리고 난 결과물의 파일 경로
