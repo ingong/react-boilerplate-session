@@ -15,6 +15,15 @@ module.exports = {
         }
       },  
       {
+        test: /\.(svg)$/,
+        type: 'asset/inline',
+        parser: {
+          dataUrlCondition: {
+            maxSize: 8 * 1024,
+          },
+        },
+      },      
+      {
         test: /\.css$/,
         use: ['style-loader','css-loader'],
       }
