@@ -1,0 +1,20 @@
+{
+  "name": "react-boilerplate-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingong/react-boilerplate-session.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingong/react-boilerplate-session/issues"
+  },
+  "homepage": "https://github.com/ingong/react-boilerplate-session#readme"
+}
