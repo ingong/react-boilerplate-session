@@ -1,3 +1,9 @@
 p {
   background-color: cornflowerblue;
 }
+
+div {
+  width: 500px;
+  height: 500px;
+  background-image: url('../../public/assets/baseball.png');
+}
