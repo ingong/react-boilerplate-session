@@ -19,7 +19,12 @@
   },
   "homepage": "https://github.com/ingong/react-boilerplate-session#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.12",
     "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
