@@ -21,5 +21,6 @@ module.exports = {
     ],
     "rules": {
         "no-extra-semi": "error",
+        "no-unused-vars": "warn"
     }
 }
