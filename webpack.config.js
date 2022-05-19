@@ -28,9 +28,9 @@ module.exports = {
         test: /\.(png|jp(e)g|gif)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'assets/[name][ext][query]'
-        }
-      },  
+          filename: 'assets/[name][ext][query]',
+        },
+      },
       {
         test: /\.(svg)$/,
         type: 'asset/inline',
@@ -39,11 +39,11 @@ module.exports = {
             maxSize: 8 * 1024,
           },
         },
-      },      
+      },
       {
         test: /\.css$/,
-        use: ['style-loader','css-loader'],
-      }
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   output: {
@@ -63,5 +63,5 @@ module.exports = {
             }
           : false,
     }),
-  ]
+  ],
 };

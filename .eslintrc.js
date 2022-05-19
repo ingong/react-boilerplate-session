@@ -25,6 +25,7 @@ module.exports = {
         "prettier/prettier": "error",
         "no-extra-semi": "error",
         "no-unused-vars": "warn",
+        "no-undef": "warn",
         "react/prop-types": "warn",
         "react/react-in-jsx-scope": "off"
     }
